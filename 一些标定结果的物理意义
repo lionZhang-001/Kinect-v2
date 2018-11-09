@@ -9,3 +9,5 @@
 在calib_depth.yaml文件中，只有一个参数，我的文件中的数值大小是-15.38866mm．它表征是这样一个问题:
 通过校准之后的深度图像中获取的深度值减去这个depthshift,才是原始的未校准的深度值（真实值？？？）
 关于这个问题的相关讨论链接：https://github.com/code-iai/iai_kinect2/issues/443
+
+深度图像中的像素值是CV_16UC1类型的
